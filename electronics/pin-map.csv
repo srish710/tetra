@@ -1,0 +1,15 @@
+Subsystem,Signal,ESP32 GPIO,Voltage domain,Status,Notes
+DC motors,L298N IN1,,3.3V logic,TBD,Verify logic thresholds
+DC motors,L298N IN2,,3.3V logic,TBD,
+DC motors,L298N IN3,,3.3V logic,TBD,
+DC motors,L298N IN4,,3.3V logic,TBD,
+DC motors,L298N ENA PWM,,3.3V logic,TBD,Check enable jumper
+DC motors,L298N ENB PWM,,3.3V logic,TBD,Check enable jumper
+Gripper,Servo PWM,,3.3V logic,TBD,Power from external regulated 5V
+Lift,Servo PWM,,3.3V logic,TBD,Power from external regulated 5V
+Ultrasonic,HC-SR04 TRIG,,3.3V logic,TBD,Verify module triggering
+Ultrasonic,HC-SR04 ECHO,,3.3V at ESP32,TBD,Level shift 5V ECHO
+IMU,MPU6050 SDA,,I2C 3.3V,TBD,Confirm breakout pullups
+IMU,MPU6050 SCL,,I2C 3.3V,TBD,
+Encoder,AS5600 SDA,,I2C 3.3V,TBD,Shared bus if compatible
+Encoder,AS5600 SCL,,I2C 3.3V,TBD,
