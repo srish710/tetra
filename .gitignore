@@ -1,0 +1,19 @@
+# PlatformIO build output
+**/.pio/
+**/.pioenvs/
+**/.piolibdeps/
+# Editors and OS
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+# Temporary CAD files
+*.bak
+*.tmp
+*.autosave
+# Secrets
+.env
+.env.*
+**/secrets.h
